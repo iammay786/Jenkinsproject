@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        ansible 'ansible'   // configure this in Jenkins global tools
-    }
-
     stages {
 
         stage('Clone Code') {
